@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>تفاصيل المنتج -Aes</title>
+    <!--font--->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css"
+        integrity="sha384-DmABxgPhJN5jlTwituIyzIUk6oqyzf3+XuP7q3VfcWA2unxgim7OSSZKKf0KSsnh" crossorigin="anonymous">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3fa8ad4ccc.js"></script>
+    <!--css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="shortcut icon" href="img/header/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--End css-->
+
+</head>
+
+<body>
+    <div class="responsive">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="img/header/logo.png" alt="logo"></a>
+            </div>
+            <div class="navbar">
+
+                <div class="icon-bar" onclick="Show()">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+
+                <ul id="nav-lists">
+                    <li class="close"><span onclick="Hide()">×</span></li>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="#">مقاسات كبيره</a></li>
+                    <li><a href="timeslah.html">ملابس نسائية </a></li>
+                    <li><a href="#">رجالي</a></li>
+                    <li><a href="#">أحذية</a></li>
+                    <li><a href="#">حقائب</a></li>
+                    <li><a href="#">ملابس للنوم</a></li>
+                    <li><a href="#">ملابس داخلية</a></li>
+                    <li><a href="#">رياضي</a></li>
+                    <li><a href="#">الأم والطفل</a></li>
+                    <li><a href="#">مقاسات كبيره</a></li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            اللغة
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">العربية</a>
+                            <a class="dropdown-item" href="#">English</a>
+                        </div>
+                    </li>
+                    <li><a data-toggle="modal" data-target="#exampleModal" href="#">بحث</a></li>
+                    <li><a href="#">تسجيل الدخول</a></li>
+                    <li><a href="#">السلة</a></li>
+
+
+
+
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade show" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">بحث</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-inline my-2 my-lg-0">
+                        <form id="search_data">
+                            <input type="hidden" name="_token"> <input class="form-control mr-sm-2" type="search"
+                                id="title" name="title" placeholder="بحث" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">بحث</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="upper-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!--==================== right logo=============================-->
+                    <div class="img-header-left">
+                        <img src="img/header/logo.png" alt="">
+
+                    </div>
+                    <!--=================================================-->
+
+                </div>
+                <!--==================left-header-componit===============================-->
+
+                <div class="col-lg-6 header-left">
+                    <!--==================Start lang===============================-->
+                    <div class="lang ">
+                        <div class="row">
+                            <a href="">
+                                <img src="img/header/sa.png" alt="">
+                                اللغة العربية
+                            </a>
+                            <a href="">
+                                <img src="img/header/united-states.png" alt="">
+                                English
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================  End lang===============================-->
+                    <!--==================  Start social===============================-->
+                    <div class="social ">
+                        <div class="row">
+                            <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <!--==================  End social===============================-->
+                    <!--==================  Start search ===============================-->
+                    <div class="search ">
+                        <div class="row">
+                            <a href="" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-search"></i></a>
+                            <a href="card.html"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="login.html"><i class="fas fa-user-alt"></i></a>
+
+                        </div>
+                    </div>
+                    <!--==================  End search ===============================-->
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--==================  Start Navbar ===============================-->
+        <!--==================  Start Navbar ===============================-->
+        <section class="Nav-bar" id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarsExample05">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a class=" nav-link " :href="ahome">{{home}} <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" :href="asbmc">{{sbmc}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" :href="aExperts">{{Experts}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" :href="asection">{{section}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" :href="aDesigners">{{Designers}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" :href="abrand">{{brand}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" :href="aTheatrical">{{Theatrical}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" :href="ahasri">{{hasri}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" :href="aTV">{{Tv}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" :href="amarket">{{market}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" :href="asize">{{size}}</a>
+                        </li>
+                    </ul>
+                </div>
+              </nav>   
+        </section>
+        <!--==================  End Navbar ===============================-->
+        <section class="card-product-d">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 card-product-right">
+                        <span class="discount">خصم <span>20%</span></span>
+                        <div class="row">
+                            <div class=" col-lg-8 card-por-right">
+                                <h1>فستان نسائي</h1>
+                                <p>بياقة سبعة وأكمام طويلة بتصميم عملي</p>
+                                <h3><strong>التقييم:</strong>
+                                    <div class="star-header">
+                                        <!--================-->
+                                        <span class="fa fa-star checked" aria-hidden="true"></span>
+                                        <span class="fa fa-star checked" aria-hidden="true"></span>
+                                        <span class="fa fa-star checked" aria-hidden="true"></span>
+                                        <span class="fa fa-star" aria-hidden="true"></span>
+                                        <span class="fa fa-star" aria-hidden="true"></span>
+
+                                    </div>
+                                </h3>
+
+                                <div class="soical-product">
+                                    <h5>أختر اللون :</h5>
+                                    <ul class=" soical-product-row">
+                                        <a href="" class="" style="background:#3E3A3A"></a>
+                                        <a href="" class="active" style="background:#C9C9C9"></a>
+                                        <a href="" class="" style="background:#67B5F7"></a>
+                                        <a href="" class="" style="background:#FF8C69"></a>
+                                    </ul>
+                                </div>
+                                <h3><strong>الكمية :</strong>
+
+                                    <div class="number">
+                                        <span class="minus">-</span>
+                                        <input type="text" value="1" />
+                                        <span class="plus">+</span>
+                                    </div>
+                                </h3>
+                                <div class="soical-product Size">
+                                    <h5> أختر الحجم : </h5>
+                                    <ul class=" soical-product-row">
+                                        <a href="" class="">S</a>
+                                        <a href="" class="active">M</a>
+                                        <a href="" class="">L</a>
+                                        <a href="" class="">XL</a>
+                                    </ul>
+                                </div>
+                                <div class="button-procutc">
+                                    <button type="button" class=" button-1  btn btn-secondary"><a href="http://">إضافة
+                                            الى السلة <img src="img/shopping-cart.svg" alt=""></a></button>
+
+                                </div>
+                            </div>
+
+                            <div class=" col-lg-4 card-por-left">
+                                <h2>SR 157.49</h2>
+                                <span>217.53</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 img-procduct-l">
+                        <img src="img/product-D/P-D-1.png" alt="">
+                        <div class="soical-product">
+                            <h5>شارك على :</h5>
+                            <ul class=" soical-product-row">
+                                <a href=""><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                                <a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                                <a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="Detials-rating container">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                        aria-controls="pills-home" aria-selected="true">التفاصيل</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                        aria-controls="pills-profile" aria-selected="false">المرجعات</a>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="detials-Tap-product">
+                        <div class="row">
+                            <div class="col-lg-6 row">
+                                <h1 class="col-lg-6 col">رمز القطعة</h1>
+                                <span class="col-lg-6 col">#8VC29210TL1</span>
+                                <h1 class="col-lg-6 col">القصّة</h1>
+                                <span class="col-lg-6 col">نحيل, مقاسات كبيرة</span>
+                                <h1 class="col-lg-6 col">الطول</h1>
+                                <span class="col-lg-6 col">ماكسي</span>
+                                <h1 class="col-lg-6 col">الياقة</h1>
+                                <span class="col-lg-6 col">شكلV ,منخفضة مشدات الصدر,</span>
+                                <h1 class="col-lg-6 col">التفاصيل</h1>
+                                <span class="col-lg-6 col">دانتيل, عاري الخلف</span>
+
+                            </div>
+                            <div class="col-lg-6 row">
+                                <h1 class="col-lg-6 col">مرونة</h1>
+                                <span class="col-lg-6 col">غير مارن</span>
+                                <h1 class="col-lg-6 col">طول الأكمام</h1>
+                                <span class="col-lg-6 col">أكمام طويلة</span>
+                                <h1 class="col-lg-6 col">بيان</h1>
+                                <span class="col-lg-6 col">فستان بقصة عصرية</span>
+                                <h1 class="col-lg-6 col">محيط الخصر</h1>
+                                <span class="col-lg-6 col">منتصف الخصر</span>
+                                <h1 class="col-lg-6 col">الخامة</h1>
+                                <span class="col-lg-6 col">دانتيل</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <img src="img/product-D/Size.png" style="    width: 100%;" alt="">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="full-rating">
+                       <div class="container">
+                           <div class="row">
+                               <h1 class="col-lg-12">المراجعات والتعليقات</h1>
+                               <div class="col-lg-4">
+                                    <h3>
+                                        <div class="star-header">
+                                            <!--================-->
+                                            <span class="fa fa-star checked" aria-hidden="true"></span>
+                                            <span class="fa fa-star checked" aria-hidden="true"></span>
+                                            <span class="fa fa-star checked" aria-hidden="true"></span>
+                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                            <span class="fa fa-star" aria-hidden="true"></span>
+    
+                                        </div>
+                                        <h4><strong>4.0</strong>من <span>5</span> <span>250</span>مراجعة</h4>
+                                    </h3>
+                               </div>
+                               <div class="col-lg-4">
+                                          <div class="rating-porgerss-D row">
+                                                <h6 class="col-lg-3  col-md-2 col">5 نجوم </h6>
+
+                                                <div class="progress col-lg-6  col-md-8 col">
+                                                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                      <h6  class="col-lg-3 col-md-2 col">25</h6>
+                                          </div>
+                                          <!---==========================-->
+                                          <div class="rating-porgerss-D row">
+                                                <h6 class="col-lg-3  col-md-2 col">4 نجوم</h6>
+
+                                                <div class="progress col-lg-6  col-md-8 col">
+                                                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                      <h6  class="col-lg-3 col-md-2 col">50</h6>
+                                          </div>
+                                          <!---==========================-->
+                                          <div class="rating-porgerss-D row">
+                                                <h6 class="col-lg-3  col-md-2 col">3 نجوم</h6>
+
+                                                <div class="progress col-lg-6  col-md-8 col">
+                                                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                      <h6  class="col-lg-3 col-md-2 col">75</h6>
+                                          </div>
+                                          <!---==========================-->
+                                          <div class="rating-porgerss-D row">
+                                                <h6 class="col-lg-3  col-md-2 col">2 نجوم</h6>
+
+                                                <div class="progress col-lg-6  col-md-8 col">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                      <h6  class="col-lg-3 col-md-2 col">100</h6>
+                                          </div>
+                                          <!---==========================-->
+                                          <div class="rating-porgerss-D row">
+                                                <h6 class="col-lg-3  col-md-2 col">1 نجوم</h6>
+
+                                                <div class="progress col-lg-6  col-md-8 col">
+                                                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                      <h6  class="col-lg-3 col-md-2 col">25</h6>
+                                          </div>
+                                          <!---==========================-->
+                                   
+                               </div>
+                               <div class="col-lg-4">
+                                    <button type="button" data-toggle="modal" data-target="#modal-rating" class="btn btn-outline-success">كتابة تعليق</button>
+
+                               </div>
+                                <div class=" col-lg-12 full-card-rating-comment">
+                                    <div class="card-rating-comment">
+                                        <div class="row">
+                                                <h2>منتج جيد</h2>
+                                                   <h5><span>منذ</span> <span>15</span> <span>دقيقة</span></h5>
+                                        </div>
+                                        <div class="star-header">
+                                                <!--================-->
+                                                <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                <span class="fa fa-star" aria-hidden="true"></span>
+                                                <span class="fa fa-star" aria-hidden="true"></span>
+        
+                                            </div>
+                                            <p><span>بواسطة : </span> عماد</p>
+                                            <p>لا أحد يحصل على ضمان يرتدي حديد النجاح. بالتأكيد ، عوامل مثل الفرصة والحظ والتوقيت مهمة. ولكن العمود الفقري للنجاح عادة ما يوجد في المفاهيم الأساسية القديمة مثل العمل الجاد ، والتصميم ، والتخطيط الجيد والمثابرة.</p>
+
+                                    </div>
+                                    <!---===========================-->
+                                    <div class="card-rating-comment">
+                                            <div class="row">
+                                                    <h2>منتج جيد</h2>
+                                                       <h5><span>منذ</span> <span>15</span> <span>دقيقة</span></h5>
+                                            </div>
+                                            <div class="star-header">
+                                                    <!--================-->
+                                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                    <span class="fa fa-star" aria-hidden="true"></span>
+                                                    <span class="fa fa-star" aria-hidden="true"></span>
+            
+                                                </div>
+                                                <p><span>بواسطة : </span> عماد</p>
+                                                <p>لا أحد يحصل على ضمان يرتدي حديد النجاح. بالتأكيد ، عوامل مثل الفرصة والحظ والتوقيت مهمة. ولكن العمود الفقري للنجاح عادة ما يوجد في المفاهيم الأساسية القديمة مثل العمل الجاد ، والتصميم ، والتخطيط الجيد والمثابرة.</p>
+    
+                                        </div>
+                                        <!---===========================-->
+                                        <div class="card-rating-comment">
+                                                <div class="row">
+                                                        <h2>منتج جيد</h2>
+                                                           <h5><span>منذ</span> <span>15</span> <span>دقيقة</span></h5>
+                                                </div>
+                                                <div class="star-header">
+                                                        <!--================-->
+                                                        <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                        <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                        <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                        <span class="fa fa-star" aria-hidden="true"></span>
+                                                        <span class="fa fa-star" aria-hidden="true"></span>
+                
+                                                    </div>
+                                                    <p><span>بواسطة : </span> عماد</p>
+                                                    <p>لا أحد يحصل على ضمان يرتدي حديد النجاح. بالتأكيد ، عوامل مثل الفرصة والحظ والتوقيت مهمة. ولكن العمود الفقري للنجاح عادة ما يوجد في المفاهيم الأساسية القديمة مثل العمل الجاد ، والتصميم ، والتخطيط الجيد والمثابرة.</p>
+        
+                                            </div>
+                                            <!---===========================-->
+                                            <div class="card-rating-comment">
+                                                    <div class="row">
+                                                            <h2>منتج جيد</h2>
+                                                               <h5><span>منذ</span> <span>15</span> <span>دقيقة</span></h5>
+                                                    </div>
+                                                    <div class="star-header">
+                                                            <!--================-->
+                                                            <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                            <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                            <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                    
+                                                        </div>
+                                                        <p><span>بواسطة : </span> عماد</p>
+                                                        <p>لا أحد يحصل على ضمان يرتدي حديد النجاح. بالتأكيد ، عوامل مثل الفرصة والحظ والتوقيت مهمة. ولكن العمود الفقري للنجاح عادة ما يوجد في المفاهيم الأساسية القديمة مثل العمل الجاد ، والتصميم ، والتخطيط الجيد والمثابرة.</p>
+            
+                                                </div>
+                                                <!---===========================-->
+                                                <div class="card-rating-comment">
+                                                        <div class="row">
+                                                                <h2>منتج جيد</h2>
+                                                                   <h5><span>منذ</span> <span>15</span> <span>دقيقة</span></h5>
+                                                        </div>
+                                                        <div class="star-header">
+                                                                <!--================-->
+                                                                <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                                <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                                <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                                <span class="fa fa-star" aria-hidden="true"></span>
+                                                                <span class="fa fa-star" aria-hidden="true"></span>
+                        
+                                                            </div>
+                                                            <p><span>بواسطة : </span> عماد</p>
+                                                            <p>لا أحد يحصل على ضمان يرتدي حديد النجاح. بالتأكيد ، عوامل مثل الفرصة والحظ والتوقيت مهمة. ولكن العمود الفقري للنجاح عادة ما يوجد في المفاهيم الأساسية القديمة مثل العمل الجاد ، والتصميم ، والتخطيط الجيد والمثابرة.</p>
+                
+                                                    </div>
+                                                    <!---===========================-->
+                                                    <div class="card-rating-comment">
+                                                            <div class="row">
+                                                                    <h2>منتج جيد</h2>
+                                                                       <h5><span>منذ</span> <span>15</span> <span>دقيقة</span></h5>
+                                                            </div>
+                                                            <div class="star-header">
+                                                                    <!--================-->
+                                                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                                                    <span class="fa fa-star" aria-hidden="true"></span>
+                                                                    <span class="fa fa-star" aria-hidden="true"></span>
+                            
+                                                                </div>
+                                                                <p><span>بواسطة : </span> عماد</p>
+                                                                <p>لا أحد يحصل على ضمان يرتدي حديد النجاح. بالتأكيد ، عوامل مثل الفرصة والحظ والتوقيت مهمة. ولكن العمود الفقري للنجاح عادة ما يوجد في المفاهيم الأساسية القديمة مثل العمل الجاد ، والتصميم ، والتخطيط الجيد والمثابرة.</p>
+                    
+                                                        </div>
+                                                        <!---===========================-->
+                                </div>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="descount-home      company">
+            <div class="container">
+                <div class="row">
+                    <h1 class="col-lg-12 title-pro "> ذات صلة :</h1>
+
+                </div>
+
+                <div class="view"></div>
+
+                <div class="row" data-aos="zoom-out">
+                    <div class="col-12">
+                        <div class="owl-carousel owl-theme" id="#car">
+                            <!---item-->
+
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-shop">
+                                        <div class="over-lay-shop">
+                                            <strong>خصم 20%</strong>
+                                        </div>
+                                        <img src="img/discount/1.png" alt="">
+                                        <div class="row">
+                                            <h1>جاكيت رجالي</h1>
+                                            <h5>37.47 <span>SR</span></h5>
+
+                                        </div>
+                                        <a href="detials-product.html">شاهد المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---item-->
+
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-shop">
+                                        <div class="over-lay-shop">
+                                            <strong>خصم 20%</strong>
+                                        </div>
+                                        <img src="img/Recommend/RE1.png" alt="">
+                                        <div class="row">
+                                            <h1>جاكيت رجالي</h1>
+                                            <h5>37.47 <span>SR</span></h5>
+
+                                        </div>
+                                        <a href="detials-product.html">شاهد المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---item-->
+
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-shop">
+                                        <div class="over-lay-shop">
+                                            <strong>خصم 20%</strong>
+                                        </div>
+                                        <img src="img/Recommend/RE2.png" alt="">
+                                        <div class="row">
+                                            <h1>جاكيت رجالي</h1>
+                                            <h5>37.47 <span>SR</span></h5>
+
+                                        </div>
+                                        <a href="detials-product.html">شاهد المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---item-->
+
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-shop">
+                                        <div class="over-lay-shop">
+                                            <strong>خصم 20%</strong>
+                                        </div>
+                                        <img src="img/Recommend/RE3.png" alt="">
+                                        <div class="row">
+                                            <h1>جاكيت رجالي</h1>
+                                            <h5>37.47 <span>SR</span></h5>
+
+                                        </div>
+                                        <a href="detials-product.html">شاهد المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!---item-->
+
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-shop">
+                                        <div class="over-lay-shop">
+                                            <strong>خصم 20%</strong>
+                                        </div>
+                                        <img src="img/Recommend/RE4.png" alt="">
+                                        <div class="row">
+                                            <h1>جاكيت رجالي</h1>
+                                            <h5>37.47 <span>SR</span></h5>
+
+                                        </div>
+                                        <a href="detials-product.html">شاهد المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---item-->
+
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-shop">
+                                        <div class="over-lay-shop">
+                                            <strong>خصم 20%</strong>
+                                        </div>
+                                        <img src="img/Recommend/RE2.png" alt="">
+                                        <div class="row">
+                                            <h1>جاكيت رجالي</h1>
+                                            <h5>37.47 <span>SR</span></h5>
+
+                                        </div>
+                                        <a href="detials-product.html">شاهد المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---item-->
+
+                            <div class="item">
+                                <div class="card">
+                                    <div class="card-shop">
+                                        <div class="over-lay-shop">
+                                            <strong>خصم 20%</strong>
+                                        </div>
+                                        <img src="img/Recommend/RE3.png" alt="">
+                                        <div class="row">
+                                            <h1>جاكيت رجالي</h1>
+                                            <h5>37.47 <span>SR</span></h5>
+
+                                        </div>
+                                        <a href="detials-product.html">شاهد المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-lg-3">
+                    <img class="logo" src="img/header/logo.png" alt="">
+                    <p>AES مصانع سعودية واعدة تسعى الى الوصول الى مراكز الصدارة في تقديم الخدمات الصناعية و الصناعة
+                        التقنية و المتاجر الالكترونية .
+
+                    </p>
+
+                </div>
+                <div class="col-lg-3 R ">
+                    <h1> روابط هامة</h1>
+                    <ul>
+                        <li><a href="contact.html"> اتصل بنا </a></li>
+                        <li><a href="About-site.html">عن الموقع</a></li>
+                        <li><a href="About-Us.html"> من نحن</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-3 R ">
+
+                    <h1>عنا</h1>
+                    <ul>
+                        <li><a href="rules.html"> القوانين والاحكام</a> </li>
+                        <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h1>التحميل</h1>
+
+                    <ul class="download">
+                        <li>
+                            <a href="">
+                                <img src="img/footer/Google (1).svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/footer/App Store (1).svg" alt="">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="full-footer row col-lg-12">
+                    <div class="col-lg-6">
+                        <h5> © 2019 AES جميع الحقوق محفوظة لدى </h5>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="soical-footer">
+
+                            <a href="#" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"> <i class="fab fa-snapchat-ghost" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"> <i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"> <i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <!----java script----->
+    <script src="js/vue.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script-vue.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
