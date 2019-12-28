@@ -236,6 +236,15 @@ footer .col-lg-3{
         width: 200px;
         margin: 0 auto;
     }
+    .card-por-right span.fa.fa-star {
+        font-size: 18px;
+    }
+    .card-por-right h1 {
+        font-size: 22px;
+    }
+    .card-por-left h2 {
+        font-size: 24px;
+    }
  
 }
 @media(max-width:1024px){
